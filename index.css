@@ -1,0 +1,45 @@
+h1 {
+  text-align: center;
+  color: darkorange;
+}
+
+#Pantry_Items {
+  text-align: center;
+  background-color: bisque;
+  width: 50vw;
+}
+
+#Canned {
+    display: inline-block;
+    text-align: center;
+    background-color: aqua;
+    width: 25vw;
+}
+
+#Dry_Goods {
+    display: inline-block;
+    text-align: center;
+    background-color: rgb(225, 27, 27);
+    width: 25vw;
+}
+
+#Freezer_Items {
+    text-align: center;
+    background-color: blue;
+    width: 50vw;
+    border-width: 2px;
+}
+
+#Snacks {
+    display: inline-block;
+    text-align: center;
+    background-color: chartreuse;
+    width: 25vw;
+}
+
+#Veggies {
+    display: inline-block;
+    text-align: center;
+    background-color: rgb(104, 164, 233);
+    width: 25vw;
+}
