@@ -1,11 +1,5 @@
-body {
-  margin: 5vw 12.5vw;
-  background-color: antiquewhite;
-}
-
 h1 {
   text-align: center;
-  color: darkorange;
   text-decoration: underline;
 }
 
@@ -24,57 +18,75 @@ li {
 #Pantry_Items {
   text-align: center;
   background-color: rgb(48, 187, 1);
-  width: 51vw;
+  width: 72.5vw;
+  border: 1px solid black;
 }
 
 #Canned {
   display: inline-block;
   text-align: center;
+  vertical-align: middle;
   background-color: rgb(143, 249, 148);
   width: 25vw;
   height: 20vw;
-  margin: 0 0.5vw 0 0;
+  margin: 0.5vw 0.5vw 1vw 0;
+  border: 1px solid black;
 }
 
 #Dry_Goods {
   display: inline-block;
   text-align: center;
+  vertical-align: middle;
   background-color: rgb(143, 249, 148);
   width: 25vw;
   height: 20vw;
+  margin: 0.5vw 0.5vw 1vw 0;
+  border: 1px solid black;
 }
 
 #Freezer_Items {
   text-align: center;
   background-color: lightskyblue;
-  width: 51vw;
+  width: 72.5vw;
+  border: 1px solid black;
 }
 
 #Snacks {
   display: inline-block;
   text-align: center;
+  vertical-align: middle;
   background-color: rgb(128, 249, 243);
   width: 25vw;
+  height: 20vw;
+  margin: 0.5vw 0.5vw 0 0;
+  border: 1px solid black;
 }
 
 #Veggies {
   display: inline-block;
   text-align: center;
+  vertical-align: middle;
   background-color: rgb(128, 249, 243);
   width: 25vw;
-  margin: 0 0.5vw 0 0;
+  height: 20vw;
+  margin: 0.5vw 0.5vw 0 0;
+  border: 1px solid black;
 }
 
 #Freezer {
   display: inline-block;
+  vertical-align: middle;
   width: 20vw;
   height: 20vw;
-  margin: 0 0 0 0;
+  margin: 0.5vw 0 0 0;
+  padding: 0.5vw;
 }
 
 #Pantry {
-  display: inline;
+  display: inline-block;
+  vertical-align: middle;
   width: 20vw;
   height: 20vw;
-  margin: 0 0 0 0;
+  margin: 0.5vw 0.5vw 1vw 0;
+  padding: 0.5vw;
 }
